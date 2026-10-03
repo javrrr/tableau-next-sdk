@@ -1,0 +1,31 @@
+{
+  "label": "Example Dashboard",
+  "name": "Example_Dashboard",
+  "workspaceIdOrApiName": "Example_Workspace",
+  "layouts": [
+    {
+      "columnCount": 48,
+      "rowHeight": 20,
+      "maxWidth": 1200,
+      "pages": [
+        {
+          "widgets": [
+            {
+              "key": "visualization_1",
+              "column": 0,
+              "row": 0,
+              "colspan": 48,
+              "rowspan": 23
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "widgets": {
+    "visualization_1": {
+      "type": "visualization",
+      "source": { "name": "Example_Visualization" }
+    }
+  }
+}

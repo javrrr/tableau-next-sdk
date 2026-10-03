@@ -1,0 +1,41 @@
+{
+  "id": "0VZxx0000000001AAA",
+  "name": "Example_Visualization",
+  "label": "Example Visualization",
+  "createdBy": { "id": "005xx000000001AAA" },
+  "createdDate": "2026-01-01T00:00:00.000Z",
+  "lastModifiedBy": { "id": "005xx000000001AAA" },
+  "lastModifiedDate": "2026-01-01T00:00:00.000Z",
+  "sourceVersion": 1,
+  "dataSource": {
+    "type": "SemanticModel",
+    "id": "0SMxx0000000001AAA",
+    "name": "Example_Model",
+    "url": "/services/data/v67.0/ssot/semantic/models/Example_Model"
+  },
+  "fields": {
+    "F2": {
+      "id": "field-F2",
+      "type": "Field",
+      "role": "Dimension",
+      "displayCategory": "Discrete",
+      "objectName": "Example_Object",
+      "fieldName": "Example_Dimension"
+    },
+    "F3": {
+      "id": "field-F3",
+      "type": "Field",
+      "role": "Measure",
+      "function": "UserAgg",
+      "objectName": "Example_Object",
+      "fieldName": "Example_Measure"
+    }
+  },
+  "view": {
+    "id": "view-1",
+    "name": "Example_Visualization",
+    "isOriginal": true,
+    "type": "VizViewSpecification",
+    "isAutomatic": true
+  }
+}

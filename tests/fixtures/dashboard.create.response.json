@@ -1,0 +1,34 @@
+{
+  "id": "0DBxx0000000001AAA",
+  "name": "Example_Dashboard",
+  "label": "Example Dashboard",
+  "workspaceIdOrApiName": "Example_Workspace",
+  "createdDate": "2026-01-01T00:00:00.000Z",
+  "layouts": [
+    {
+      "columnCount": 48,
+      "rowHeight": 20,
+      "maxWidth": 1200,
+      "pages": [
+        {
+          "name": "00000000-0000-5000-8000-000000000001",
+          "widgets": [
+            {
+              "key": "visualization_1",
+              "column": 0,
+              "row": 0,
+              "colspan": 48,
+              "rowspan": 23
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "widgets": {
+    "visualization_1": {
+      "type": "visualization",
+      "source": { "name": "Example_Visualization" }
+    }
+  }
+}

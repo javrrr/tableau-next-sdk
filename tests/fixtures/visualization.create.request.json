@@ -1,0 +1,47 @@
+{
+  "label": "Example Visualization",
+  "name": "Example_Visualization",
+  "dataSource": {
+    "type": "SemanticModel",
+    "id": "0SMxx0000000001AAA",
+    "name": "Example_Model"
+  },
+  "fields": {
+    "F2": {
+      "type": "Field",
+      "role": "Dimension",
+      "displayCategory": "Discrete",
+      "objectName": "Example_Object",
+      "fieldName": "Example_Dimension"
+    },
+    "F3": {
+      "type": "Field",
+      "role": "Measure",
+      "function": "UserAgg",
+      "objectName": "Example_Object",
+      "fieldName": "Example_Measure"
+    }
+  },
+  "visualSpecification": {
+    "columns": ["F3"],
+    "rows": ["F2"],
+    "marks": {
+      "headers": {
+        "encodings": [],
+        "isAutomatic": false,
+        "stack": { "isAutomatic": true, "isStacked": true },
+        "type": "Text"
+      },
+      "panes": {
+        "encodings": [],
+        "isAutomatic": false,
+        "stack": { "isAutomatic": true, "isStacked": true },
+        "type": "Bar"
+      }
+    }
+  },
+  "view": {
+    "type": "VizViewSpecification",
+    "isAutomatic": true
+  }
+}
